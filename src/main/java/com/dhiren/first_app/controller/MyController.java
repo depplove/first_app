@@ -20,9 +20,10 @@ public class MyController {
    @GetMapping("/persons")
    public List<Person> names(){
       List<Person> persons = new ArrayList<>();
-      persons.add(new Person("Dhirendra","Kumar","Pune"));
-      persons.add(new Person("Manvendra","Singh","Agra"));
-      persons.add(new Person("Shubham","Kadbe","Pune"));
+      persons.add(new Person("Daren","Evans","Pune"));
+      persons.add(new Person("Manav","Singh","Agra"));
+      persons.add(new Person("Shubh","Kher","Pune"));
+      persons.add(new Person("Shiv","Khanna","Agra"));
       return persons;
       //mvn spring-boot:build-image -DskipTests
    }
